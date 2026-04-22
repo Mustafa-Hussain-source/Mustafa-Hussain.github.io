@@ -1,140 +1,106 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
-version: 2
-
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Mustafa Hussain
+title: Computer Science Student
+email: mustafahussain3030@gmail.com
+phone: +92-319-3213385
+linkedin_username: mustafa-hussainn
+github_username: Mustafa-Hussain-source
 
-# Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images/profile.jpg
+about_content: |
+  Computer Science undergraduate at LUMS with strong interest in software development, AI, and cloud systems. 
+  Experienced in building real-world projects including security monitoring systems, machine learning models, and cloud-deployed applications. 
+  Passionate about learning new technologies and continuously improving problem-solving and development skills.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Projects
+    layout: list
     content:
+
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+        title: Security Monitoring System (ELK Stack + Wazuh)
+        description: |
+          Built a real-time security monitoring system using Elasticsearch, Logstash, Kibana, and Wazuh.
+          Designed detection rules for suspicious authentication behavior and developed dashboards for log analysis and incident response.
+
+      - layout: left
+        title: Serenely – AI Mental Wellness App
+        description: |
+          Developed an AI-powered mental wellness platform with therapy chat and journaling features.
+          Contributed to frontend and backend while ensuring privacy and seamless user experience.
+
+      - layout: left
+        title: Netflix Movie Data Analysis (Machine Learning)
+        description: |
+          Built machine learning models to predict IMDb ratings using large-scale datasets.
+          Performed data cleaning and visualization using Python, Seaborn, and Matplotlib.
+
+      - layout: left
+        title: Recyclopedia – Sustainability App (HCI)
+        description: |
+          Designed UI/UX for a sustainability-focused mobile application.
+          Implemented features like recycling locator, barcode scanner, and reward system.
+
+      - layout: left
+        title: Simon Game (Web Application)
+        description: |
+          Developed an interactive memory game using HTML, CSS, and JavaScript.
+          Implemented dynamic gameplay logic and responsive UI.
+
+      - layout: left
+        title: Cloud-Based Microservices Application (Azure)
+        description: |
+          Designed and deployed a full cloud-based application using Azure App Service, Container Apps, and Azure Functions.
+          Implemented containerization with Docker, integrated authentication, internal database services, and microservice architecture.
+          Worked with VNet, Private DNS, and cloud deployment pipelines.
+          
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: SAFE Wetual
+        sub_title: Software Engineering Intern
+        caption: June 2023 – Aug 2023
+        description: |
+          Assisted in developing and debugging programming tasks, improving software reliability.
+          Collaborated with the team to write clean and efficient code following best practices.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS Computer Science
+        caption: 2022 – 2026
+        description: |
+          Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, AI & Machine Learning, Software Engineering.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Skills
+    layout: text
+    content: |
+      **Programming:** C++, Python, C, JavaScript  
+      **Web Development:** HTML, CSS, React  
+      **Databases:** SQL  
+      **Cloud & Tools:** Docker, Azure (App Service, Container Apps, Functions), Elasticsearch, Kibana, Wazuh  
+      **Concepts:** Data Structures, Algorithms, Machine Learning, Cloud Computing
+
+  - title: Achievements & Activities
+    layout: text
+    content: |
+      - Scrabble Champion  
+      - Futsal Sports Fest Champion  
+      - Volunteer & Coach at YLCSS  
+      - Organized tournaments and training sessions under Balochistan Scrabble Association  
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
+remote_theme: sproogen/modern-resume-theme
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
